@@ -1,12 +1,74 @@
+body{
+    background-color: rgb(166, 243, 196);
+}
 
-/* 
+.app{
+    display: flex;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.text-center{
+    margin:auto;
+    margin-top: 30px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    border: 8px solid black;
+    border-radius: 20px;
+    background-color: rgb(240, 255, 255);
+    padding: 20px;
+}
 
-*/
+.text-center> h1{
+    font-size: 100px;
+}
+
+.taskContainer{
+    margin: 10px;
+    display: flex;
+    border: 4px outset rgba(255, 0, 0, 0.418);
+    border-radius: 10px;
+    width: 500px;
+    padding: 5px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(228, 72, 72);
+}
+
+.taskContainer > p{
+    margin: 0;
+    font-size: 40px;
+}
+
+.inputs{
+    width: 500px;
+    height: 60px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.inputs> input{
+    font-size: 40px;
+    width: 80%;
+    border: 3px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.botonadd{
+    color: rgb(185, 201, 192);
+    font-size:  56px;
+}
+
+.seleccionable{
+    cursor: pointer;
+}
+
+.tasklist{
+    margin: auto;
+}
+
+.green{
+    background-color: green;
+    border: 4px inset green;
+}
